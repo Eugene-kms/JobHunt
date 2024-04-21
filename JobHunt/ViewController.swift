@@ -20,14 +20,18 @@ class ViewController: UIViewController {
     
     let vacancyCategories: [String]  = ["Active", "Ejected"]
     var activeVacancies: [VacancyViewModel] = []
+    var ejectedVacancies: [VacancyViewModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        activeVacancies = provideVacancy()
+        activeVacancies = provideActiveVacancy()
+        ejectedVacancies = provideEjectedVacancy()
+        
         
         configureTableView()
         configureSegmentedControl()
     }
+    
     
     func configureSegmentedControl() {
         segmentedControl.removeAllSegments()
@@ -43,7 +47,7 @@ class ViewController: UIViewController {
         
     }
     
-    func provideVacancy() -> [VacancyViewModel] {
+    func provideActiveVacancy() -> [VacancyViewModel] {
         var activeVacancies: [VacancyViewModel] = []
         let activeCategory = "Active"
         
@@ -66,6 +70,26 @@ class ViewController: UIViewController {
             category: activeCategory))
         
         return activeVacancies
+    }
+    
+    func provideEjectedVacancy() -> [VacancyViewModel] {
+        
+        var ejectedVacancies: [VacancyViewModel] = []
+        let ejectedCategory = "Ejected"
+        
+        ejectedVacancies.append(VacancyViewModel(
+            title: "Design Manager",
+            company: "Tesla, Inc.",
+            imageName: "Tesla",
+            category: ejectedCategory))
+        
+        ejectedVacancies.append(VacancyViewModel(
+            title: "Product Designer",
+            company: "Salesforce.com, Inc.",
+            imageName: "Salesforce",
+            category: ejectedCategory))
+        
+        return ejectedVacancies
     }
 }
 

@@ -1,9 +1,13 @@
 import UIKit
 
 class VacancyTableViewCell: UITableViewCell {
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-    }
+    var vacancyViewCell: ViewController = ViewController()
     
-    override func awakeFromNib() {}
+    var vacancies: [VacancyViewModel] = []
+    
+    
+    func addActiveVacancies() {
+        let activeVacancy = vacancyViewCell.provideActiveVacancy()
+        vacancies.append(activeVacancy)
+    }
 }
