@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		440058532BD58C20001534A7 /* VacancyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440058522BD58C20001534A7 /* VacancyTableViewCell.xib */; };
-		440058552BD58C60001534A7 /* VacancyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440058542BD58C60001534A7 /* VacancyTableViewCell.swift */; };
+		440058532BD58C20001534A7 /* VacancyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440058522BD58C20001534A7 /* VacancyCell.xib */; };
+		440058552BD58C60001534A7 /* VacancyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440058542BD58C60001534A7 /* VacancyCell.swift */; };
 		440472EE2BD18883001544E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440472ED2BD18883001544E5 /* AppDelegate.swift */; };
 		440472F02BD18883001544E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440472EF2BD18883001544E5 /* SceneDelegate.swift */; };
-		440472F22BD18883001544E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440472F12BD18883001544E5 /* ViewController.swift */; };
+		440472F22BD18883001544E5 /* MyApplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440472F12BD18883001544E5 /* MyApplicationsViewController.swift */; };
 		440472F52BD18883001544E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 440472F42BD18883001544E5 /* Base */; };
 		440472F72BD18886001544E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440472F62BD18886001544E5 /* Assets.xcassets */; };
 		440472FA2BD18886001544E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 440472F92BD18886001544E5 /* Base */; };
 		440473052BD1AA25001544E5 /* Urbanist-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 440473032BD1AA25001544E5 /* Urbanist-VariableFont_wght.ttf */; };
 		440473062BD1AA25001544E5 /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 440473042BD1AA25001544E5 /* Urbanist-Italic-VariableFont_wght.ttf */; };
+		444146D42BE6774500CD0C71 /* Vacancies.json in Sources */ = {isa = PBXBuildFile; fileRef = 444146D32BE6774500CD0C71 /* Vacancies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		440058522BD58C20001534A7 /* VacancyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacancyTableViewCell.xib; sourceTree = "<group>"; };
-		440058542BD58C60001534A7 /* VacancyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyTableViewCell.swift; sourceTree = "<group>"; };
+		440058522BD58C20001534A7 /* VacancyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacancyCell.xib; sourceTree = "<group>"; };
+		440058542BD58C60001534A7 /* VacancyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyCell.swift; sourceTree = "<group>"; };
 		440472EA2BD18883001544E5 /* JobHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440472ED2BD18883001544E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		440472EF2BD18883001544E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		440472F12BD18883001544E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		440472F12BD18883001544E5 /* MyApplicationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplicationsViewController.swift; sourceTree = "<group>"; };
 		440472F42BD18883001544E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		440472F62BD18886001544E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440472F92BD18886001544E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440472FB2BD18886001544E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440473032BD1AA25001544E5 /* Urbanist-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		440473042BD1AA25001544E5 /* Urbanist-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		444146D32BE6774500CD0C71 /* Vacancies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Vacancies.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +50,8 @@
 		440058512BD58BC1001534A7 /* VacancyCell */ = {
 			isa = PBXGroup;
 			children = (
-				440058522BD58C20001534A7 /* VacancyTableViewCell.xib */,
-				440058542BD58C60001534A7 /* VacancyTableViewCell.swift */,
+				440058522BD58C20001534A7 /* VacancyCell.xib */,
+				440058542BD58C60001534A7 /* VacancyCell.swift */,
 			);
 			path = VacancyCell;
 			sourceTree = "<group>";
@@ -77,7 +79,7 @@
 				440473012BD1A98B001544E5 /* Resources */,
 				440472ED2BD18883001544E5 /* AppDelegate.swift */,
 				440472EF2BD18883001544E5 /* SceneDelegate.swift */,
-				440472F12BD18883001544E5 /* ViewController.swift */,
+				440472F12BD18883001544E5 /* MyApplicationsViewController.swift */,
 				440472F32BD18883001544E5 /* Main.storyboard */,
 				440472F82BD18886001544E5 /* LaunchScreen.storyboard */,
 				440472FB2BD18886001544E5 /* Info.plist */,
@@ -90,6 +92,7 @@
 			children = (
 				440473022BD1A9B7001544E5 /* Fonts */,
 				440472F62BD18886001544E5 /* Assets.xcassets */,
+				444146D32BE6774500CD0C71 /* Vacancies.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -164,7 +167,7 @@
 				440472F72BD18886001544E5 /* Assets.xcassets in Resources */,
 				440473062BD1AA25001544E5 /* Urbanist-Italic-VariableFont_wght.ttf in Resources */,
 				440473052BD1AA25001544E5 /* Urbanist-VariableFont_wght.ttf in Resources */,
-				440058532BD58C20001534A7 /* VacancyTableViewCell.xib in Resources */,
+				440058532BD58C20001534A7 /* VacancyCell.xib in Resources */,
 				440472FA2BD18886001544E5 /* Base in Resources */,
 				440472F52BD18883001544E5 /* Base in Resources */,
 			);
@@ -177,9 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				440472F22BD18883001544E5 /* ViewController.swift in Sources */,
-				440058552BD58C60001534A7 /* VacancyTableViewCell.swift in Sources */,
+				440472F22BD18883001544E5 /* MyApplicationsViewController.swift in Sources */,
+				440058552BD58C60001534A7 /* VacancyCell.swift in Sources */,
 				440472EE2BD18883001544E5 /* AppDelegate.swift in Sources */,
+				444146D42BE6774500CD0C71 /* Vacancies.json in Sources */,
 				440472F02BD18883001544E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
